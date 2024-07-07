@@ -41,7 +41,6 @@ while running:
                 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
                 score += 1
 
-
     if not game_over and time.time() - start_time >= game_duration:
         game_over = True
 
