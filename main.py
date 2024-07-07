@@ -11,8 +11,8 @@ pygame.display.set_caption('Игра ТИР')
 icon = pygame.image.load('img/bamboo.jpg')
 
 target_img = pygame.image.load('img/cucum.png')
-target_width = 50
-target_height = 50
+target_width = 80
+target_height = 80
 
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGT - target_height)
@@ -33,10 +33,5 @@ while running:
                 target_y = random.randint(0, SCREEN_HEIGT - target_height)
     screen.blit(target_img,(target_x, target_y))
     pygame.display.update()
-    
-
-
-
-
 
 pygame.quit()
