@@ -8,9 +8,9 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGT = 600
 screen= pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGT))
 pygame.display.set_caption('Игра ТИР')
-icon = pygame.image.load('img/0000978_moorhuhn-crazy-chicken-digital-version-.jpg')
+icon = pygame.image.load('img/bamboo.jpg')
 
-target_img = pygame.image.load('img/target.png')
+target_img = pygame.image.load('img/cucum.png')
 target_width = 50
 target_height = 50
 
